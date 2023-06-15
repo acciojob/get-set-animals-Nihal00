@@ -36,4 +36,7 @@ const species = "Siamese";
 const myCat = new Cat(species);
 myCat.makeSound();
 
+const species = "Golden Retriever";
+const myDog = new Dog(species);
+myDog.bark();
 
