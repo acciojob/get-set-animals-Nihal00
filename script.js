@@ -31,3 +31,9 @@ class Cat extends Animal {
 window.Animal = Animal;
 window.Dog = Dog;
 window.Cat = Cat;
+
+const species = "Siamese";
+const myCat = new Cat(species);
+myCat.makeSound();
+
+
